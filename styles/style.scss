@@ -1,0 +1,23 @@
+// Variables
+// Primary
+$subcription-background: hsla(225, 100%, 94%, 0.3);
+$button: hsl(245, 75%, 52%);
+
+// Neutral
+
+$main-heading: hsl(223, 47%, 23%);
+$main-paragraph: hsl(224, 23%, 55%);
+$hyperlinks: hsl(245, 75%, 52%);
+
+//Font Family
+
+$ff-primary: 'Red Hat Display', sans-serif;
+
+// Font Size
+
+$fs-400:16px;
+
+body { min-height: 100vh; }
+
+@import "general";
+@import "card";

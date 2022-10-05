@@ -1,0 +1,35 @@
+body{
+    font-family: $ff-primary;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-mobile{
+    width: 100%;
+    height: 100%;
+}
+
+.bg-desktop{
+    position: absolute;
+    top: 0;
+}
+
+.main-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    max-width:40vh;
+    background-color: white;
+    border: 1px solid hsla(0, 0%, 50%,0.5);
+}
+
+
+
+
